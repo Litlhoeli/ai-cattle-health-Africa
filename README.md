@@ -5,5 +5,5 @@ based on temperature, feed intake, milk yield, and other farm parameters.
 
 ## Team Members
 - Masheane Sekopo — Model Developer  
-- Member 2 — Data Analyst & Writer  
-- Member 3 — Documentation & Media Lead
+- Motlatsi Masilo — Data Analyst & Writer  
+- Rets`elisitsoe Melato — Documentation & Media Lead
