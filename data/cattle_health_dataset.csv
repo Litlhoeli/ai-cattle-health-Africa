@@ -1,0 +1,90 @@
+body_temperature,breed_type,milk_production,respiratory_rate,walking_capacity,sleeping_duration,body_condition_score,heart_rate,eating_duration,lying_down_duration,ruminating,rumen_fill,faecal_consistency,health_status
+Normal,Cross Breed,Low,High,High,Short,Moderate,Low,Moderate,Moderate,Moderate,Moderate,extremely firm,unhealthy
+Normal,Normal Breed,High,High,High,Moderate,Low,Moderate,Moderate,Moderate,Moderate,High,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,Moderate,High,Moderate,Moderate,Moderate,Low,ideal,healthy
+High,Normal Breed,High,Moderate,High,Short,High,High,Moderate,Moderate,Moderate,Low,Black faece,unhealthy
+High,Normal Breed,High,High,Moderate,Moderate,Low,High,Moderate,Moderate,Moderate,High,ideal,healthy
+High,Cross Breed,Low,Low,Low,Short,Very Low,Moderate,Moderate,Moderate,Moderate,Very Low,Fresh blood in faeces,unhealthy
+Normal,Normal Breed,High,Moderate,High,Short,Moderate,Moderate,Moderate,Moderate,Moderate,High,ideal,healthy
+Normal,Normal Breed,High,Moderate,High,Short,Low,Low,Moderate,Moderate,Moderate,Low,ideal,healthy
+Normal,Normal Breed,High,Moderate,High,Short,High,Moderate,High,Moderate,High,High,ideal,healthy
+Normal,Normal Breed,High,High,High,Short,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,ideal,healthy
+Normal,Normal Breed,High,High,High,Short,Very Low,High,Low,Moderate,Low,Low,ideal,healthy
+Normal,Normal Breed,High,Moderate,High,Moderate,High,Low,High,Moderate,Moderate,Moderate,ideal,healthy
+Normal,Normal Breed,High,High,High,Short,Low,High,Moderate,Moderate,Low,Low,ideal,healthy
+Normal,Normal Breed,High,Moderate,Moderate,Very Short,Moderate,Moderate,Moderate,Moderate,Moderate,Low,ideal,healthy
+Normal,Normal Breed,High,High,High,Short,Moderate,High,Moderate,Moderate,Moderate,Moderate,ideal,healthy
+Normal,Normal Breed,Low,Moderate,High,Short,Very Low,Moderate,Low,Moderate,Low,Very Low,ideal,healthy
+Normal,Normal Breed,High,Moderate,High,Moderate,High,High,Moderate,Moderate,High,High,ideal,healthy
+Normal,Normal Breed,High,Moderate,High,Short,High,Moderate,Moderate,Moderate,Moderate,High,ideal,healthy
+Normal,Normal Breed,High,Moderate,Moderate,Very Short,Low,High,Moderate,Moderate,Low,Low,ideal,healthy
+Normal,Normal Breed,High,High,Moderate,Short,Very Low,High,Low,Moderate,Low,Low,ideal,healthy
+Normal,Normal Breed,High,High,High,Short,Moderate,High,High,Moderate,Moderate,Moderate,ideal,healthy
+Normal,Normal Breed,High,High,Moderate,Short,High,Moderate,Moderate,Moderate,Moderate,High,ideal,healthy
+Normal,Normal Breed,High,Moderate,High,Short,High,Moderate,Moderate,Moderate,High,Moderate,ideal,healthy
+Low,Normal Breed,High,Moderate,Moderate,Moderate,Low,Moderate,Moderate,Moderate,Low,Moderate,ideal,healthy
+Normal,Normal Breed,High,Moderate,High,Short,Moderate,High,High,Moderate,Moderate,Moderate,ideal,healthy
+Normal,Normal Breed,Low,High,High,Moderate,Very Low,High,Very Low,Moderate,Very Low,Very Low,ideal,healthy
+Normal,Normal Breed,High,Moderate,High,Short,Moderate,High,Moderate,Moderate,Low,Moderate,ideal,healthy
+High,Normal Breed,Low,Very Low,Low,Long,High,Very Low,Low,High,Low,Moderate,very liquid faeces,unhealthy
+High,Normal Breed,Low,Very Low,Low,Long,Low,Very Low,Very Low,Very Low,Low,Low,extremely firm,unhealthy
+High,Normal Breed,Low,Low,Low,Long,Moderate,Very Low,Low,High,Low,Low,Black faeces,unhealthy
+High,Normal Breed,Low,Moderate,Low,Long,Very Low,Very Low,Very Low,High,Very Low,Very Low,Fresh blood in faeces,unhealthy
+High,Normal Breed,Low,Low,Low,Long,High,Very Low,Moderate,Moderate,Low,High,extremely firm,unhealthy
+High,Normal Breed,Low,Low,Low,Long,Moderate,Very Low,Low,High,Low,Moderate,Black faeces,unhealthy
+High,Normal Breed,Low,Low,Low,Long,Low,Very Low,Very Low,High,Very Low,Moderate,Fresh blood in faeces,unhealthy
+High,Normal Breed,Low,Very Low,Low,Very Long,Very Low,Very Low,Very Low,High,Very Low,Low,extremely firm,unhealthy
+High,Normal Breed,Low,Very Low,Low,Long,High,Very Low,Low,High,Low,Low,very liquid faeces,unhealthy
+High,Normal Breed,Low,Very Low,Low,Long,Low,Very Low,Very Low,High,Very Low,Moderate,Fresh blood in faeces,unhealthy
+High,Normal Breed,Low,Very Low,Low,Long,Low,Very Low,Very Low,High,Very Low,Low,Black faeces,unhealthy
+High,Normal Breed,Low,Moderate,Low,Very Long,Moderate,Very Low,Low,High,Low,Low,Black faeces,unhealthy
+High,Normal Breed,Low,Low,Low,Long,High,Very Low,Low,High,Low,Moderate,very liquid faeces,unhealthy
+High,Normal Breed,Very Low,Low,Low,Long,Very Low,Very Low,Very Low,High,Very Low,Low,Fresh blood in faeces,unhealthy
+High,Normal Breed,Low,Low,Low,Long,Moderate,Very Low,Low,High,Low,Moderate,Black faeces,unhealthy
+High,Normal Breed,Low,Very Low,Low,Long,High,Very Low,Moderate,Moderate,Low,Low,extremely firm,unhealthy
+High,Normal Breed,Low,Moderate,Low,Long,Low,Very Low,Low,High,Very Low,Moderate,very liquid faeces,unhealthy
+High,Normal Breed,Low,Very Low,Low,Long,Very Low,Very Low,Very Low,High,Very Low,Low,Black faeces,unhealthy
+High,Normal Breed,Low,Moderate,Low,Long,High,Very Low,Low,Moderate,Low,Moderate,extremely firm,unhealthy
+High,Normal Breed,Low,Moderate,Low,Very Long,Moderate,Very Low,Low,Moderate,Very Low,Low,Fresh blood in faeces,unhealthy
+Normal,Cross Breed,Low,High,Moderate,Short,Moderate,Moderate,Moderate,Moderate,Low,Moderate,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,Moderate,Moderate,Moderate,Moderate,Low,Low,ideal,healthy
+Normal,Cross Breed,Low,Moderate,High,Short,High,Low,Moderate,Moderate,Moderate,High,ideal,healthy
+Normal,Cross Breed,Low,Moderate,High,Moderate,Low,Moderate,Moderate,Moderate,Moderate,Moderate,ideal,healthy
+Normal,Cross Breed,Low,Moderate,High,Short,Very Low,High,Moderate,Moderate,Moderate,Low,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,High,High,Moderate,Moderate,Moderate,High,ideal,healthy
+Normal,Cross Breed,Low,Moderate,High,Short,Moderate,High,Moderate,Moderate,Low,Low,ideal,healthy
+Normal,Cross Breed,Low,Moderate,High,Short,Low,Moderate,Moderate,Moderate,Moderate,Low,ideal,healthy
+Normal,Cross Breed,Low,Moderate,High,Short,High,High,Moderate,Moderate,Low,High,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,Moderate,High,Moderate,Moderate,Low,Moderate,ideal,healthy
+Normal,Cross Breed,Low,Moderate,High,Short,Low,High,Moderate,Moderate,Low,Moderate,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,High,High,High,Moderate,Moderate,Moderate,ideal,healthy
+Normal,Cross Breed,Low,Moderate,High,Short,Moderate,High,Moderate,Moderate,Moderate,Low,ideal,healthy
+Normal,Cross Breed,Very Low,High,Moderate,Short,Very Low,Moderate,Low,Moderate,Low,Very Low,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,Low,Moderate,Moderate,Moderate,High,High,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,High,Moderate,Moderate,Moderate,Moderate,High,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,Moderate,Moderate,Moderate,Moderate,Moderate,High,ideal,healthy
+Normal,Cross Breed,Low,Moderate,High,Short,Very Low,Moderate,Low,Moderate,Low,Low,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,Low,Moderate,Moderate,Moderate,Moderate,High,ideal,healthy
+Normal,Cross Breed,Low,High,High,Short,High,High,Moderate,Moderate,Low,Moderate,ideal,healthy
+Normal,Cross Breed,Very Low,High,High,Short,Moderate,High,Moderate,Moderate,Moderate,Very Low,ideal,healthy
+High,Cross Breed,Very Low,Very Low,Low,Long,Very Low,Very Low,Very Low,High,Very Low,Very Low,very liquid faeces,unhealthy
+High,Cross Breed,Very Low,Low,Low,Long,Moderate,Very Low,Low,High,Low,Moderate,extremely firm,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Very Long,High,Very Low,Moderate,Moderate,Low,High,Black faeces,unhealthy
+High,Cross Breed,Very Low,Low,Low,Long,High,Very Low,Moderate,Moderate,Low,Moderate,very liquid faeces,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Very Long,Moderate,Very Low,Low,Moderate,Very Low,Low,Fresh blood in faeces,unhealthy
+High,Cross Breed,Very Low,Low,Low,Long,Moderate,Very Low,Low,Moderate,Low,Moderate,very liquid faeces,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Long,Moderate,Very Low,Low,High,Very Low,Moderate,extremely firm,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Long,Low,Very Low,Low,High,Very Low,Low,very liquid faeces,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Long,High,Very Low,Moderate,Moderate,Very Low,High,Black faeces,unhealthy
+High,Cross Breed,Very Low,Low,Low,Long,High,Very Low,Moderate,Moderate,Low,High,Black faeces,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Long,High,Very Low,Low,High,Low,High,Fresh blood in faeces,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Long,Moderate,Very Low,Low,High,Low,Moderate,extremely firm,unhealthy
+High,Cross Breed,Very Low,Low,Low,Long,Moderate,Very Low,Low,High,Low,Moderate,Black faeces,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Long,Moderate,Very Low,Low,High,Very Low,Low,extremely firm,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Long,Low,Very Low,Low,High,Low,Very Low,Fresh blood in faeces,unhealthy
+High,Cross Breed,Very Low,Low,Low,Long,Low,Very Low,Very Low,High,Low,Very Low,extremely firm,unhealthy
+High,Cross Breed,Very Low,Moderate,Low,Very Long,High,Very Low,Very Low,High,Very Low,Moderate,Fresh blood in faeces,unhealthy
+High,Cross Breed,Very Low,Low,Low,Long,High,Very Low,Low,High,Low,High,Black faeces,unhealthy
+High,Cross Breed,Very Low,Very Low,Low,Long,Moderate,Very Low,Low,Moderate,Low,Moderate,extremely firm,unhealthy
+High,Cross Breed,Very Low,Low,Low,Long,Moderate,Very Low,Low,High,Very Low,Low,very liquid faeces,unhealthy
+High,Cross Breed,Very Low,Low,Low,Long,Very Low,Very Low,Very Low,High,Very Low,Very Low,very liquid faeces,unhealthy
