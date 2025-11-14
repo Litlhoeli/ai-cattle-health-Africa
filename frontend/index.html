@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐄 Cattle Health Monitor - AI Assistant for Farmers</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🐄</span>
+                <h1>Cattle Health Monitor</h1>
+            </div>
+            <p class="tagline">AI-Powered Health Assistant for African Farmers</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Welcome Section -->
+            <section id="welcomeSection" class="welcome-section">
+                <div class="welcome-card">
+                    <h2>👋 Welcome, Farmer!</h2>
+                    <p>Let's get started with monitoring your cattle's health</p>
+                    
+                    <div class="form-group">
+                        <label for="farmerName">Your Name</label>
+                        <input type="text" id="farmerName" placeholder="Enter your name" class="input-field">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="farmLocation">Farm Location</label>
+                        <input type="text" id="farmLocation" placeholder="Enter your region/village" class="input-field">
+                    </div>
+                    
+                    <button onclick="startApp()" class="btn btn-primary btn-large">
+                        Get Started →
+                    </button>
+                </div>
+            </section>
+
+            <!-- Dashboard Section -->
+            <section id="dashboardSection" class="dashboard-section" style="display: none;">
+                <div class="dashboard-header">
+                    <div>
+                        <h2 id="greetingText">Hello, Farmer!</h2>
+                        <p class="subtitle">Choose an option below to get started</p>
+                    </div>
+                    <button onclick="logout()" class="btn btn-secondary">Change User</button>
+                </div>
+
+                <!-- Action Cards -->
+                <div class="action-cards">
+                    <div class="action-card" onclick="showHealthCheck()">
+                        <div class="card-icon">🏥</div>
+                        <h3>Health Check</h3>
+                        <p>Assess your cow's health status with AI</p>
+                    </div>
+                    
+                    <div class="action-card" onclick="showChatbot()">
+                        <div class="card-icon">💬</div>
+                        <h3>Ask Questions</h3>
+                        <p>Chat with AI about cattle health concerns</p>
+                    </div>
+                </div>
+
+                <!-- Health Check Form -->
+                <div id="healthCheckForm" class="health-check-form" style="display: none;">
+                    <div class="form-card">
+                        <div class="form-header">
+                            <h3>🏥 Cattle Health Assessment</h3>
+                            <button onclick="hideHealthCheck()" class="btn-close">✕</button>
+                        </div>
+                        
+                        <div class="form-body">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="temperature">🌡️ Body Temperature (°C)</label>
+                                    <input type="number" id="temperature" step="0.1" value="38.5" class="input-field" placeholder="Normal: 38.5">
+                                    <span class="help-text">Normal range: 38.0 - 39.0°C</span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="milk">🥛 Milk Production (liters/day)</label>
+                                    <input type="number" id="milk" step="0.5" value="15" class="input-field" placeholder="e.g., 15">
+                                    <span class="help-text">Average: 15-25 liters</span>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="respiratory">💨 Respiratory Rate (breaths/min)</label>
+                                    <input type="number" id="respiratory" value="30" class="input-field" placeholder="Normal: 30">
+                                    <span class="help-text">Normal: 26-35 breaths/min</span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="heartRate">❤️ Heart Rate (bpm)</label>
+                                    <input type="number" id="heartRate" value="60" class="input-field" placeholder="Normal: 60">
+                                    <span class="help-text">Normal: 48-84 bpm</span>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="walking">🚶 Walking Capacity (steps/day)</label>
+                                    <input type="number" id="walking" value="12000" class="input-field" placeholder="e.g., 12000">
+                                    <span class="help-text">Healthy: 10,000-15,000 steps</span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="breed">🐂 Breed Type</label>
+                                    <select id="breed" class="input-field">
+                                        <option value="0">Dairy Breed</option>
+                                        <option value="1">Beef Breed</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="faecal">💩 Fecal Consistency</label>
+                                <select id="faecal" class="input-field">
+                                    <option value="0">Normal (Firm)</option>
+                                    <option value="1">Slightly Soft</option>
+                                    <option value="2">Loose</option>
+                                    <option value="3">Watery</option>
+                                    <option value="4">Bloody</option>
+                                </select>
+                            </div>
+
+                            <button onclick="checkHealth()" class="btn btn-primary btn-large" id="checkBtn">
+                                Analyze Health Status
+                            </button>
+                        </div>
+
+                        <!-- Results Section -->
+                        <div id="resultsSection" class="results-section" style="display: none;">
+                            <div class="result-card">
+                                <div id="healthStatus" class="health-status"></div>
+                                <div id="confidence" class="confidence-badge"></div>
+                                <div id="recommendations" class="recommendations"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chatbot -->
+                <div id="chatbotSection" class="chatbot-section" style="display: none;">
+                    <div class="chat-card">
+                        <div class="chat-header">
+                            <h3>💬 AI Cattle Health Assistant</h3>
+                            <button onclick="hideChatbot()" class="btn-close">✕</button>
+                        </div>
+                        
+                        <div class="chat-messages" id="chatMessages">
+                            <div class="message bot-message">
+                                <div class="message-icon">🤖</div>
+                                <div class="message-content">
+                                    <p>Hello! I'm your AI cattle health assistant. Ask me anything about cattle care, symptoms, or farming practices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="chat-input-container">
+                            <input type="text" id="chatInput" placeholder="Ask a question about cattle health..." class="chat-input" onkeypress="handleChatEnter(event)">
+                            <button onclick="sendMessage()" class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+        <div class="spinner"></div>
+        <p>Processing...</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>🐄 Cattle Health Monitor | AI-Powered Healthcare for African Farmers</p>
+            <p class="footer-note">Always consult a veterinarian for serious health concerns</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
