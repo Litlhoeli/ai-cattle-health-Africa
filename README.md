@@ -5,5 +5,7 @@ based on temperature, feed intake, milk yield, and other farm parameters.
 
 ## Team Members
 - Masheane Sekopo — Model Developer  
-- Motlatsi Masilo — Data Analyst & Writer  
-- Rets`elisitsoe Melato — Documentation & Media Lead
+- Retselisitsoe Melato — Data Analyst & Writer  
+- Motlatsi Masilo — Documentation & Media Lead
+
+The repo has .ipynb files to see how our model is built and how it learns, and .py for web app (UI) to see how the project works. 
